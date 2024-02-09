@@ -1,0 +1,27 @@
+.egitim-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .egitim-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .egitim-video {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  .egitim-video iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(220, 10, 10, 0.1);
+  }
+  
